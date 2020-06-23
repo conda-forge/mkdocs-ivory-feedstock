@@ -1,5 +1,5 @@
 {% set name = "mkdocs-ivory" %}
-{% set version = "0.4.5" %}
+{% set version = "0.4.6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   # url: https://github.com/daizutabi/mkdocs-ivory/archive/v{{ version }}.tar.gz
-  sha256: 99c52fa3d26862dfab9cadd616d7aec7126ff5b02c7652d955055d6777bdecb8
+  sha256: c2251e1dd9a0d6b6ffb947d53a4c44132a55e8130e3ef8d22a18b4670d026941
   # sha256: d76a2c0dccecd042c28954e7a2a5bf963496f523a028437903bd7bd70a1afe60
 
 build:
